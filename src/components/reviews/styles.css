@@ -1,0 +1,27 @@
+.swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  background: #D9D9D9 !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000 !important;
+}
+
+.swiper-wrapper {
+  padding-bottom: 8px;
+}
+
+@media (max-width: 1024px) {
+  .swiper-slide {
+    width: calc((100% - 24px) / 2) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .swiper-slide {
+    width: 100% !important;
+  }
+}
+

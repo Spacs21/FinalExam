@@ -1,9 +1,10 @@
 import './App.css'
+import Routers from './router'
 
 function App() {
   return (
     <>
-      <h2 className='text-5xl text-blue-600 font-bold text-center'>Final Exams!</h2>
+    <Routers/>
     </>
   )
 }
